@@ -46567,11 +46567,6 @@ var CreateJobComponent = /** @class */ (function () {
         ;
         var dataString = 'foo1=bar1&foo2=bar2';
         var options = {
-            headers: {
-                'Access-Control-Allow-Origin': '*',
-                'Access-Control-Allow-Methods': '*',
-                'Access-Control-Allow-Headers': '*'
-            },
             url: 'https://postman-echo.com/post',
             method: 'POST',
             body: dataString
